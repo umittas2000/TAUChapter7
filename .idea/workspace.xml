@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1858767f-5019-4cd4-aec1-820920bbf8ec" name="Changes" comment="Week15 alert1 and alert2 tests are written.">
-      <change afterPath="$PROJECT_DIR$/resources/testFile.txt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ContextMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Entry_AdPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/ContextMenuTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/FileUploadTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/ModalWindowTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1858767f-5019-4cd4-aec1-820920bbf8ec" name="Changes" comment="Week15 FileUpload and ContextMenu steps are coded.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FileUploadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FileUploadPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,31 +45,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.AlertTests.executor": "Run",
-    "TestNG.AlertTests.testAcceptAlertText.executor": "Run",
-    "TestNG.AlertTests.testAlertInput.executor": "Run",
-    "TestNG.AlertTests.testGetTextFromAlert.executor": "Run",
-    "TestNG.ContextMenuTests.executor": "Run",
-    "TestNG.FileUploadTests.executor": "Run",
-    "TestNG.KeysTests.executor": "Run",
-    "TestNG.ModalWindowTests.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Week15/Selenium",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.AlertTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AlertTests.testAcceptAlertText.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AlertTests.testAlertInput.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AlertTests.testGetTextFromAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ContextMenuTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FileUploadTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.KeysTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ModalWindowTests.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Week15/Selenium&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.ContextMenuTests">
     <configuration name="AlertTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tauchapter7" />
@@ -195,7 +184,8 @@
       <option name="presentableId" value="Default" />
       <updated>1729393761844</updated>
       <workItem from="1729393763365" duration="11012000" />
-      <workItem from="1729518057405" duration="4907000" />
+      <workItem from="1729518057405" duration="5724000" />
+      <workItem from="1729599633301" duration="684000" />
     </task>
     <task id="LOCAL-00001" summary="Week15 initial commit">
       <option name="closed" value="true" />
@@ -231,7 +221,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Week15 initial commit" />
     <MESSAGE value="Week15 alert1 and alert2 tests are written." />
-    <option name="LAST_COMMIT_MESSAGE" value="Week15 alert1 and alert2 tests are written." />
+    <MESSAGE value="Week15 FileUpload and ContextMenu steps are coded." />
+    <option name="LAST_COMMIT_MESSAGE" value="Week15 FileUpload and ContextMenu steps are coded." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

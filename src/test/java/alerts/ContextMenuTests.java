@@ -16,5 +16,6 @@ public class ContextMenuTests extends BaseTests {
 
         Assert.assertEquals("You selected a context menu",alertText);
         contextMenuPage.alert_ClickOk();
+
     }
 }
