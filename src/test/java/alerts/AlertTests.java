@@ -44,5 +44,17 @@ public class AlertTests extends BaseTests {
         Assert.assertEquals(actualAlertText, expectedAlertText);
     }
 
+    @Test
+    public void testAlertInput(){
+        var alertsPage = homePage.clickJavaScriptAlerts();
+        alertsPage.triggerPrompt();
+        alertsPage.alert_setInput("Hello World!");
+        alertsPage.alert_clickToAccept();
+        String actualAlertText = alertsPage.getResultText();
+        String expectedAlertText = "You entered: Hello World!";
+
+        Assert.assertEquals(actualAlertText, expectedAlertText);
+    }
+
 
 }

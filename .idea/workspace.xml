@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1858767f-5019-4cd4-aec1-820920bbf8ec" name="Changes" comment="Week15 initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/AlertTests.java" afterDir="false" />
+    <list default="true" id="1858767f-5019-4cd4-aec1-820920bbf8ec" name="Changes" comment="Week15 alert1 and alert2 tests are written.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FileUploadPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alerts/AlertTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alerts/AlertTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "umittas2000"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/umittas2000/TAUChapter7.git",
+    "accountId": "c87d941e-8756-4e74-904d-30f2029f0749"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
@@ -39,6 +52,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.AlertTests.executor": "Run",
     "TestNG.AlertTests.testAcceptAlertText.executor": "Run",
+    "TestNG.AlertTests.testAlertInput.executor": "Run",
     "TestNG.AlertTests.testGetTextFromAlert.executor": "Run",
     "TestNG.KeysTests.executor": "Run",
     "git-widget-placeholder": "master",
@@ -51,7 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.AlertTests">
+  <component name="RunManager" selected="TestNG.AlertTests.testAlertInput">
     <configuration name="AlertTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tauchapter7" />
       <extension name="coverage">
@@ -80,6 +94,24 @@
       <option name="PACKAGE_NAME" value="alerts" />
       <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
       <option name="METHOD_NAME" value="testAcceptAlertText" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertTests.testAlertInput" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tauchapter7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
+      <option name="METHOD_NAME" value="testAlertInput" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,6 +156,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AlertTests.testAlertInput" />
         <item itemvalue="TestNG.AlertTests" />
         <item itemvalue="TestNG.AlertTests.testGetTextFromAlert" />
         <item itemvalue="TestNG.AlertTests.testAcceptAlertText" />
@@ -147,7 +180,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729393761844</updated>
-      <workItem from="1729393763365" duration="2959000" />
+      <workItem from="1729393763365" duration="11012000" />
     </task>
     <task id="LOCAL-00001" summary="Week15 initial commit">
       <option name="closed" value="true" />
@@ -165,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729394692890</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Week15 alert1 and alert2 tests are written.">
+      <option name="closed" value="true" />
+      <created>1729396798858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729396798858</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +214,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Week15 initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week15 initial commit" />
+    <MESSAGE value="Week15 alert1 and alert2 tests are written." />
+    <option name="LAST_COMMIT_MESSAGE" value="Week15 alert1 and alert2 tests are written." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

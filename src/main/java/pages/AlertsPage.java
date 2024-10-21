@@ -15,6 +15,7 @@ public class AlertsPage {
     private By triggerAlertButton = By.xpath("//button[text()='Click for JS Alert']");
     private By triggerConfirmButton = By.xpath("//button[text()='Click for JS Confirm']");
     private By resultText = By.id("result");
+    private By triggerPromptButton = By.xpath("//button[text()='Click for JS Prompt']");
 
 
     //Action Methods
@@ -25,6 +26,14 @@ public class AlertsPage {
 
     public void triggerConfirm(){
         driver.findElement(triggerConfirmButton).click();
+    }
+
+    public void triggerPrompt(){
+        driver.findElement(triggerPromptButton).click();
+    }
+
+    public void alert_setInput(String text){
+        driver.switchTo().alert().sendKeys(text);
     }
 
     public void alert_clickToAccept(){
