@@ -53,7 +53,6 @@ public class AlertsPage {
     }
 
 
-
     public String getResultText(){
         return driver.findElement(resultText).getText();
     }

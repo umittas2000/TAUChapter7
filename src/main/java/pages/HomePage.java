@@ -72,4 +72,22 @@ public class HomePage {
         return new AlertsPage(driver);
     }
 
+   //FileUploadPage
+   public FileUploadPage clickFileUploadLink() {
+        clickLink("File Upload");
+        return new FileUploadPage(driver);
+   }
+
+   //ModalWindowPage
+    public Entry_AdPage clickModalWindowLink(){
+        clickLink("Entry Ad");
+        return new Entry_AdPage(driver);
+    }
+
+    //ContextMenu page
+    public ContextMenuPage clickContextMenuLink() {
+        clickLink("Context Menu");
+        return new ContextMenuPage(driver);
+    }
+
 }

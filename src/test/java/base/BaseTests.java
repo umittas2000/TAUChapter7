@@ -21,7 +21,7 @@ public class BaseTests {
         //Wait maximum 5 seconds for each element interaction before throwing the error.
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-        //This is only for move driver browser to display2
+        //This is only for moving driver browser to display2
         //driver.manage().window().setPosition(new Point(2000,0));//display 2
 
         driver.get("https://the-internet.herokuapp.com/");
@@ -31,7 +31,9 @@ public class BaseTests {
 
 
     @AfterMethod
-    public void tearDown(){
+    public void tearDown() throws InterruptedException {
+
+        //Thread.sleep(1000);
         driver.quit();
     }
 }
